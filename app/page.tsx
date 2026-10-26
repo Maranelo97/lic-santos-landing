@@ -327,20 +327,7 @@ export default function Home() {
                 <h2>Información clara desde el primer contacto.</h2>
                 <p>El valor se conversa antes de reservar para que puedas decidir con tranquilidad.</p>
               </div>
-              <div className="price-box">
-                <span>Referencia estimada</span>
-                <strong>≈ $45.000</strong>
-                <small>ARS · valor sujeto a confirmación</small>
-                <ContactLink
-                  href={CONTACT_HREF}
-                  source="price"
-                  className="button button-light"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Hacer una consulta <span aria-hidden="true">↗</span>
-                </ContactLink>
-              </div>
+             
             </Reveal>
           </div>
         </section>
